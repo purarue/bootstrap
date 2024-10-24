@@ -97,7 +97,7 @@ fi
 
 # nvim configuration
 [[ ! -d "${HOME}/.dotfiles" ]] && {
-	git clone https://github.com/seanbreckenridge/dotfiles.git "${HOME}/.dotfiles" || true
+	git clone https://github.com/purarue/dotfiles.git "${HOME}/.dotfiles" || true
 }
 mkdir -p "${HOME}/.config/nvim"
 rsync -Pavh "${HOME}/.dotfiles/.config/nvim/" "${HOME}/.config/nvim/"
@@ -111,7 +111,7 @@ read -r buildnvim
 case "$buildnvim" in
 [yY][eE][sS] | [yY])
 	# install neovim from source
-	bash -c "$(curl -fsSL https://raw.githubusercontent.com/seanbreckenridge/bootstrap/master/build_neovim)"
+	bash -c "$(curl -fsSL https://raw.githubusercontent.com/purarue/bootstrap/master/build_neovim)"
 	;;
 *) ;;
 esac

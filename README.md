@@ -7,7 +7,7 @@ Can be run repeatedely to update from newly pushed changes to this repo.
 Run:
 
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/seanbreckenridge/bootstrap/master/bootstrap)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/purarue/bootstrap/master/bootstrap)"
 ```
 
 Or, shorter (just redirects to the link above) in case I need to type it out:
@@ -30,7 +30,7 @@ On a debian-based server, that can typically be satisfied like: `apt update && a
 Prompts you to build neovim from scratch (on a debian-like system), which you could also do with:
 
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/seanbreckenridge/bootstrap/master/build_neovim)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/purarue/bootstrap/master/build_neovim)"
 ```
 
 - Sets some default environment variables:
