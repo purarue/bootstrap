@@ -13,7 +13,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/purarue/bootstrap/master
 Or, shorter (just redirects to the link above) in case I need to type it out:
 
 ```
-bash -c "$(curl -sL sean.fish/s/b)"
+bash -c "$(curl -sL purarue.xyz/s/b)"
 ```
 
 Any additional bash customization gets put in `~/.bash_ext`
